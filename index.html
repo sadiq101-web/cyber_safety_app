@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cyber Safety Awareness</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>🛡️ Cyber Safety Awareness</h1>
+        <p class="subtitle">Learn. Protect. Stay Safe Online</p>
+
+        <div class="progress-bar">
+            <div class="progress-fill" id="progressFill" style="width: 0%"></div>
+        </div>
+
+        <div class="topic-grid" id="topicGrid">
+            <div class="topic-card active" data-topic="passwords">
+                <div class="topic-icon">🔐</div>
+                <div class="topic-title">Password Safety</div>
+                <div class="topic-desc">Strong passwords & 2FA</div>
+            </div>
+            <div class="topic-card" data-topic="phishing">
+                <div class="topic-icon">🎣</div>
+                <div class="topic-title">Phishing</div>
+                <div class="topic-desc">Spot fake emails & links</div>
+            </div>
+            <div class="topic-card" data-topic="social">
+                <div class="topic-icon">📱</div>
+                <div class="topic-title">Social Media</div>
+                <div class="topic-desc">Privacy & sharing safely</div>
+            </div>
+            <div class="topic-card" data-topic="malware">
+                <div class="topic-icon">🦠</div>
+                <div class="topic-title">Malware</div>
+                <div class="topic-desc">Viruses & protection</div>
+            </div>
+        </div>
+
+        <div class="content-area" id="contentArea"></div>
+
+        <div class="quiz-section" id="quizSection">
+            <h3>📝 Quick Quiz: Test Your Knowledge</h3>
+            <div id="quizContainer"></div>
+            <button class="reset-btn" onclick="resetQuiz()">🔄 Reset Quiz</button>
+        </div>
+
+        <footer>
+            <p>© 2026 Cyber Safety Awareness | KISP 2026 Portfolio</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
